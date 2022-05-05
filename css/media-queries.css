@@ -1,0 +1,80 @@
+@media (min-width: 576px) {
+    .search-icon {
+        padding: 14px 30px;
+        border-radius: 30px;
+        background-color: #ff4a52;
+        margin-right: 5px;
+    }
+
+    .drop-down-menu {
+        padding: 14px 22px;
+        border-radius: 30px;
+        background-color: #1EC6B6;
+        color: #1d1d1d;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    nav li {
+        display: inline-block;
+    }
+
+    .drop-down-menu {
+        display: none !important;
+    }
+    .menu-bar {
+        display: none!important;
+    }
+}
+
+@media (min-width: 1200px) {
+.search-form{
+    flex-direction: row!important;
+}
+    .search-bar{
+        flex-direction: row!important;
+        justify-content: center;
+    }
+    .search-bar h3{
+        margin-bottom: 0!important;
+        justify-content: center;
+    }
+    .popular {
+        display: flex;
+        flex-direction: column;
+        width: 1500px;
+        margin: 0 auto;
+    }
+    .newsletter-container{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .mail-form{
+       display: block;
+    }
+    .newsletter-text{
+        margin-top: 0;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 607px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-footer{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .right-footer h3{
+        text-align: center;
+    }
+    .links li{
+        text-align: center;
+    }
+}
